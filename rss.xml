@@ -215,8 +215,8 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
             <link>http://zhujiyuan.xyz/2022/05/10/quantumult-x-and-js/</link>
             <category term="router" scheme="http://zhujiyuan.xyz/categories/router/" />
             <category term="soft" scheme="http://zhujiyuan.xyz/categories/router/soft/" />
-            <category term="quantumult x" scheme="http://zhujiyuan.xyz/tags/quantumult-x/" />
             <category term="JavaScript" scheme="http://zhujiyuan.xyz/tags/JavaScript/" />
+            <category term="quantumult x" scheme="http://zhujiyuan.xyz/tags/quantumult-x/" />
             <pubDate>Tue, 10 May 2022 16:43:35 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Quantumult X 是大二上学期入手的，当时咱还是搞物理的呢，哪有时间折腾这些。本着 15 块钱不能白花的想法，这些天研究了一下。&lt;/p&gt;
 &lt;p&gt;上一篇内容大致说了一下 Quantumult X，但是最激动人心的莫过于可以运行 JavaScript。&lt;/p&gt;
@@ -275,8 +275,8 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
             <title>Quantumult X一款神奇的软件</title>
             <link>http://zhujiyuan.xyz/2022/05/04/quantumult-x-note/</link>
             <category term="auto" scheme="http://zhujiyuan.xyz/categories/auto/" />
-            <category term="router" scheme="http://zhujiyuan.xyz/tags/router/" />
             <category term="quantumult x" scheme="http://zhujiyuan.xyz/tags/quantumult-x/" />
+            <category term="router" scheme="http://zhujiyuan.xyz/tags/router/" />
             <pubDate>Wed, 04 May 2022 23:40:49 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;quantumult x，一款极简，性价比极高的路由软件。&lt;br /&gt;
 简单的说，这个软件可以实现如下&lt;/p&gt;
