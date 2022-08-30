@@ -8,11 +8,117 @@
     <author>
       <name>Gloria</name>
     </author>
-    <updated>2022-08-29T14:40:35.000Z</updated>
+    <updated>2022-08-30T14:05:15.000Z</updated>
     <entry>
-        <id>http://zhujiyuan.xyz/2022/08/29/learning/CS/dataStruct/stringAndKMP/</id>
-        <title>stringAndKMP</title>
-        <link rel="alternate" href="http://zhujiyuan.xyz/2022/08/29/learning/CS/dataStruct/stringAndKMP/"/>
+        <id>http://zhujiyuan.xyz/2022/08/30/leetcode/lc496/</id>
+        <title>496.下一个更大元素 I(介绍单调栈</title>
+        <link rel="alternate" href="http://zhujiyuan.xyz/2022/08/30/leetcode/lc496/"/>
+        <content type="html">&lt;h1 id=&#34;question&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#question&#34;&gt;#&lt;/a&gt; Question&lt;/h1&gt;
+&lt;p&gt;nums1 中数字 x 的 下一个更大元素 是指 x 在 nums2 中对应位置 右侧 的 第一个 比 x 大的元素。&lt;/p&gt;
+&lt;p&gt;给你两个 没有重复元素 的数组 nums1 和 nums2 ，下标从 0 开始计数，其中 nums1 是 nums2 的子集。&lt;/p&gt;
+&lt;p&gt;对于每个 0 &amp;lt;= i &amp;lt; nums1.length ，找出满足 nums1 [i] == nums2 [j] 的下标 j ，并且在 nums2 确定 nums2 [j] 的 下一个更大元素 。如果不存在下一个更大元素，那么本次查询的答案是 -1 。&lt;/p&gt;
+&lt;p&gt;返回一个长度为 nums1.length 的数组 ans 作为答案，满足 ans [i] 是如上所述的 下一个更大元素 。&lt;/p&gt;
+&lt;p&gt;示例 1：&lt;/p&gt;
+&lt;p&gt;输入：nums1 = [4,1,2], nums2 = [1,3,4,2].&lt;br /&gt;
+ 输出：[-1,3,-1]&lt;br /&gt;
+ 解释：nums1 中每个值的下一个更大元素如下所述：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;4 ，用加粗斜体标识，nums2 = [1,3,4,2]。不存在下一个更大元素，所以答案是 -1 。&lt;/li&gt;
+&lt;li&gt;1 ，用加粗斜体标识，nums2 = [1,3,4,2]。下一个更大元素是 3 。&lt;/li&gt;
+&lt;li&gt;2 ，用加粗斜体标识，nums2 = [1,3,4,2]。不存在下一个更大元素，所以答案是 -1 。&lt;br /&gt;
+示例 2：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;输入：nums1 = [2,4], nums2 = [1,2,3,4].&lt;br /&gt;
+ 输出：[3,-1]&lt;br /&gt;
+ 解释：nums1 中每个值的下一个更大元素如下所述：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2 ，用加粗斜体标识，nums2 = [1,2,3,4]。下一个更大元素是 3 。&lt;/li&gt;
+&lt;li&gt;4 ，用加粗斜体标识，nums2 = [1,2,3,4]。不存在下一个更大元素，所以答案是 -1 。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;提示：&lt;/p&gt;
+&lt;p&gt;1 &amp;lt;= nums1.length &amp;lt;= nums2.length &amp;lt;= 1000&lt;br /&gt;
+0 &amp;lt;= nums1[i], nums2[i] &amp;lt;= 104&lt;br /&gt;
+nums1 和 nums2 中所有整数 互不相同&lt;br /&gt;
+ nums1 中的所有整数同样出现在 nums2 中&lt;/p&gt;
+&lt;h4 id=&#34;&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#&#34;&gt;#&lt;/a&gt; &lt;/h4&gt;
+&lt;h1 id=&#34;单调栈&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#单调栈&#34;&gt;#&lt;/a&gt; 单调栈&lt;/h1&gt;
+&lt;p&gt;只要是这类问题，找下一个最小，就可以使用单调栈。&lt;/p&gt;
+&lt;p&gt;举个栗子&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;list = [1,6,4,2,5]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;对应每个数的下一个更大元素&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;list&lt;/th&gt;
+&lt;th&gt;1&lt;/th&gt;
+&lt;th&gt;6&lt;/th&gt;
+&lt;th&gt;4&lt;/th&gt;
+&lt;th&gt;2&lt;/th&gt;
+&lt;th&gt;5&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;ans&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;-1&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;-1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;单调栈就可以得到的 ans 数组&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;把 &lt;code&gt;list&lt;/code&gt;  逆序依次放入 stack 中&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;放 5 时&lt;/p&gt;
+&lt;p&gt;stack = []&lt;/p&gt;
+&lt;p&gt;因为 stack 为空，所以没有元素比 5 大，此时 ans [4] = -1&lt;/p&gt;
+&lt;p&gt;再把 5 入栈&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;放 2 时&lt;/p&gt;
+&lt;p&gt;stack = [5]&lt;/p&gt;
+&lt;p&gt;因为栈顶元素 5&amp;gt;2，直接 ans [3] = 5&lt;/p&gt;
+&lt;p&gt;再把 2 入栈&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;放 4 时&lt;/p&gt;
+&lt;p&gt;stack = [5,2]&lt;/p&gt;
+&lt;p&gt;4 &amp;gt; 栈顶元素 2，让 2 出栈&lt;/p&gt;
+&lt;p&gt;此时 stack = [5]&lt;/p&gt;
+&lt;p&gt;4 &amp;lt;栈顶元素 5，直接 ans [2] = 5&lt;/p&gt;
+&lt;p&gt;再把 4 入栈&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;放 6 时&lt;/p&gt;
+&lt;p&gt;stack = [5,4]&lt;/p&gt;
+&lt;p&gt;因为 6 大于栈顶元素 4&lt;/p&gt;
+&lt;p&gt;4 出栈&lt;/p&gt;
+&lt;p&gt;因为 6 大于栈顶元素 5&lt;/p&gt;
+&lt;p&gt;5 出栈&lt;/p&gt;
+&lt;p&gt;stack = []&lt;/p&gt;
+&lt;p&gt;栈空，所以 6 没有更大的元素，ans [1] = -1&lt;/p&gt;
+&lt;p&gt;把 6 压入栈&lt;/p&gt;
+&lt;p&gt;......&lt;/p&gt;
+&lt;p&gt;以上就是单调栈的全部了&lt;/p&gt;
+&lt;h1 id=&#34;answer&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#answer&#34;&gt;#&lt;/a&gt; Answer&lt;/h1&gt;
+&lt;h2 id=&#34;bf&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#bf&#34;&gt;#&lt;/a&gt; BF&lt;/h2&gt;
+&lt;p&gt;暴力法&lt;/p&gt;
+&lt;p&gt;时间复杂度 O (n^2)&lt;/p&gt;
+&lt;p&gt;空间复杂度 O (1)&lt;/p&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Solution&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    vector&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;nextGreaterElement&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;vector&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt; nums1&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; vector&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt; nums2&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        vector &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; ans&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        ans&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;reserve&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;nums1&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; j&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt;a&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;nums1&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;j&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;j&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;nums2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;j&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;nums2&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;j&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                    &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;j&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;nums2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;j&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                        &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;nums2&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;j&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                            ans&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;push_back&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;nums2&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;j&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                            &lt;span class=&#34;token keyword&#34;&gt;break&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                    &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;j&lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt;nums2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;ans&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;push_back&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; ans&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;单调栈-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#单调栈-2&#34;&gt;#&lt;/a&gt; 单调栈&lt;/h2&gt;
+&lt;p&gt;利用 hash 表事先一次遍历，把 num2 数组的下一个更大找出来。&lt;/p&gt;
+&lt;p&gt;然后遍历 num1，依次再 hash 表里查询即可。&lt;/p&gt;
+&lt;p&gt;时间复杂度 O (n+m)，空间复杂度 O (m),m 是 num2 的长度，n 是 num1 的长度。&lt;/p&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Solution&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    vector&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;nextGreaterElement&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;vector&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt; nums1&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; vector&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt; nums2&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        stack&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;s&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        unordered_map&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; hash&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        vector&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;ans&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        ans&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;reserve&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;nums1&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;nums2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;i&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;i&lt;span class=&#34;token operator&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;s&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;empty&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt;nums2&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;=&lt;/span&gt;s&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;top&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                s&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;pop&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            hash&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;nums2&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; s&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;empty&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;?&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;s&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;top&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            s&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;push&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;nums2&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt;a&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;nums1&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            ans&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;push_back&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;hash&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; ans&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+        <category term="leetcode" scheme="http://zhujiyuan.xyz/categories/leetcode/" />
+        <category term="单调栈" scheme="http://zhujiyuan.xyz/categories/leetcode/%E5%8D%95%E8%B0%83%E6%A0%88/" />
+        <category term="单调栈" scheme="http://zhujiyuan.xyz/tags/%E5%8D%95%E8%B0%83%E6%A0%88/" />
+        <updated>2022-08-30T14:05:15.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://zhujiyuan.xyz/2022/08/29/CS/dataStruct/stringAndKMP/</id>
+        <title>字符串匹配</title>
+        <link rel="alternate" href="http://zhujiyuan.xyz/2022/08/29/CS/dataStruct/stringAndKMP/"/>
         <content type="html">&lt;h1 id=&#34;子串匹配问题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#子串匹配问题&#34;&gt;#&lt;/a&gt; 子串匹配问题&lt;/h1&gt;
 &lt;p&gt;子串匹配又叫模式串匹配&lt;/p&gt;
 &lt;p&gt;例如  &lt;code&gt;ab&lt;/code&gt;  是  &lt;code&gt;sdabc&lt;/code&gt;  的子串， &lt;code&gt;ab&lt;/code&gt;  又称为模式串， &lt;code&gt;sdabc&lt;/code&gt;  又成为主串。&lt;/p&gt;
@@ -43,9 +149,9 @@
         <updated>2022-08-29T14:40:35.000Z</updated>
     </entry>
     <entry>
-        <id>http://zhujiyuan.xyz/2022/08/25/learning/CS/dataStruct/stackQueueArray/</id>
+        <id>http://zhujiyuan.xyz/2022/08/25/CS/dataStruct/stackQueueArray/</id>
         <title>栈、队列和数组</title>
-        <link rel="alternate" href="http://zhujiyuan.xyz/2022/08/25/learning/CS/dataStruct/stackQueueArray/"/>
+        <link rel="alternate" href="http://zhujiyuan.xyz/2022/08/25/CS/dataStruct/stackQueueArray/"/>
         <content type="html">&lt;h1 id=&#34;stack&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#stack&#34;&gt;#&lt;/a&gt; stack&lt;/h1&gt;
 &lt;h2 id=&#34;顺序栈&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#顺序栈&#34;&gt;#&lt;/a&gt; 顺序栈&lt;/h2&gt;
 &lt;p&gt;利用数组，进行栈的操作&lt;/p&gt;
@@ -68,9 +174,9 @@
         <updated>2022-08-25T15:11:11.000Z</updated>
     </entry>
     <entry>
-        <id>http://zhujiyuan.xyz/2022/08/23/learning/CS/dataStruct/linearTable/chainTable/</id>
+        <id>http://zhujiyuan.xyz/2022/08/23/CS/dataStruct/linearTable/chainTable/</id>
         <title>数据结构-链表</title>
-        <link rel="alternate" href="http://zhujiyuan.xyz/2022/08/23/learning/CS/dataStruct/linearTable/chainTable/"/>
+        <link rel="alternate" href="http://zhujiyuan.xyz/2022/08/23/CS/dataStruct/linearTable/chainTable/"/>
         <content type="html">&lt;h1 id=&#34;笨蛋链表_&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#笨蛋链表_&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;pink&#34;&gt;笨蛋链表 &amp;gt;_&amp;lt;&lt;/span&gt;&lt;/h1&gt;
 &lt;p&gt;链表有很多种类&lt;/p&gt;
 &lt;ol&gt;
@@ -400,9 +506,9 @@
         <updated>2022-08-23T08:05:11.000Z</updated>
     </entry>
     <entry>
-        <id>http://zhujiyuan.xyz/2022/08/18/learning/CS/dataStruct/base/timeCalculate/</id>
+        <id>http://zhujiyuan.xyz/2022/08/18/CS/dataStruct/base/timeCalculate/</id>
         <title>时间复杂度-练习题</title>
-        <link rel="alternate" href="http://zhujiyuan.xyz/2022/08/18/learning/CS/dataStruct/base/timeCalculate/"/>
+        <link rel="alternate" href="http://zhujiyuan.xyz/2022/08/18/CS/dataStruct/base/timeCalculate/"/>
         <content type="html">&lt;h1 id=&#34;错题集&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#错题集&#34;&gt;#&lt;/a&gt; 错题集&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li class=&#34;quiz fill&#34;&gt;
@@ -443,9 +549,9 @@
         <updated>2022-08-18T07:03:10.000Z</updated>
     </entry>
     <entry>
-        <id>http://zhujiyuan.xyz/2022/08/18/learning/CS/dataStruct/linearTable/olderTable/</id>
+        <id>http://zhujiyuan.xyz/2022/08/18/CS/dataStruct/linearTable/olderTable/</id>
         <title>数据结构-顺序表</title>
-        <link rel="alternate" href="http://zhujiyuan.xyz/2022/08/18/learning/CS/dataStruct/linearTable/olderTable/"/>
+        <link rel="alternate" href="http://zhujiyuan.xyz/2022/08/18/CS/dataStruct/linearTable/olderTable/"/>
         <content type="html">&lt;h1 id=&#34;顺序表-简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#顺序表-简介&#34;&gt;#&lt;/a&gt; 顺序表 - 简介 🌟&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;特点
@@ -592,9 +698,9 @@
         <updated>2022-08-18T06:46:30.000Z</updated>
     </entry>
     <entry>
-        <id>http://zhujiyuan.xyz/2022/08/12/learning/python/pyinstallerPacketExe/</id>
+        <id>http://zhujiyuan.xyz/2022/08/12/python/pyinstallerPacketExe/</id>
         <title>pyinstaller打包exe</title>
-        <link rel="alternate" href="http://zhujiyuan.xyz/2022/08/12/learning/python/pyinstallerPacketExe/"/>
+        <link rel="alternate" href="http://zhujiyuan.xyz/2022/08/12/python/pyinstallerPacketExe/"/>
         <content type="html">&lt;h1 id=&#34;pyinstaller打包exe&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pyinstaller打包exe&#34;&gt;#&lt;/a&gt; pyinstaller 打包 exe&lt;/h1&gt;
 &lt;p&gt;python 是一门解释性语言，所以当代码运行时，需要 python.exe 等解释器一句一句的对代码进行翻译（运行）。&lt;/p&gt;
 &lt;p&gt;（本篇重在阐述 pyinstaller 打包为什么会这么大，精简打包压缩流程）&lt;/p&gt;
@@ -781,8 +887,8 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
 &lt;p&gt;我也不想抄，可是它&lt;s&gt;叫我哥哥诶&lt;/s&gt;写的太好了。&lt;/p&gt;
 </content>
         <category term="note" scheme="http://zhujiyuan.xyz/categories/note/" />
-        <category term="git" scheme="http://zhujiyuan.xyz/tags/git/" />
         <category term="note" scheme="http://zhujiyuan.xyz/tags/note/" />
+        <category term="git" scheme="http://zhujiyuan.xyz/tags/git/" />
         <updated>2022-05-12T09:51:20.000Z</updated>
     </entry>
     <entry>
@@ -1139,9 +1245,9 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
         <updated>2022-04-21T14:56:30.000Z</updated>
     </entry>
     <entry>
-        <id>http://zhujiyuan.xyz/2022/04/19/learning/cpp/c-five-zone/</id>
+        <id>http://zhujiyuan.xyz/2022/04/19/cpp/c-five-zone/</id>
         <title>c++的四大区</title>
-        <link rel="alternate" href="http://zhujiyuan.xyz/2022/04/19/learning/cpp/c-five-zone/"/>
+        <link rel="alternate" href="http://zhujiyuan.xyz/2022/04/19/cpp/c-five-zone/"/>
         <content type="html">&lt;p&gt;今天开始学习使用 c++，之前一直使用 python 比较多。语言各有千秋，只有最合适。好啦，现在到了使用 c++ 的时候惹。希望我能够喜欢上这个语言。&lt;/p&gt;
 &lt;p&gt;let&#39;s go!😽&lt;/p&gt;
 &lt;h2 id=&#34;内存四大区&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#内存四大区&#34;&gt;#&lt;/a&gt; 内存四大区&lt;/h2&gt;
@@ -1179,8 +1285,8 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
 </content>
         <category term="cpp" scheme="http://zhujiyuan.xyz/categories/cpp/" />
         <category term="computer language" scheme="http://zhujiyuan.xyz/categories/cpp/computer-language/" />
-        <category term="note" scheme="http://zhujiyuan.xyz/tags/note/" />
         <category term="cpp" scheme="http://zhujiyuan.xyz/tags/cpp/" />
+        <category term="note" scheme="http://zhujiyuan.xyz/tags/note/" />
         <updated>2022-04-19T13:02:40.000Z</updated>
     </entry>
     <entry>
