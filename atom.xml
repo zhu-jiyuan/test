@@ -144,8 +144,8 @@ nums1 和 nums2 中所有整数 互不相同&lt;br /&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 </content>
-        <category term="cs" scheme="https://blog.ohayo.live/categories/cs/" />
-        <category term="数据结构" scheme="https://blog.ohayo.live/categories/cs/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" />
+        <category term="CS" scheme="https://blog.ohayo.live/categories/CS/" />
+        <category term="数据结构" scheme="https://blog.ohayo.live/categories/CS/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" />
         <category term="note" scheme="https://blog.ohayo.live/tags/note/" />
         <updated>2022-08-29T14:40:35.000Z</updated>
     </entry>
@@ -699,9 +699,9 @@ nums1 和 nums2 中所有整数 互不相同&lt;br /&gt;
         <updated>2022-08-18T06:46:30.000Z</updated>
     </entry>
     <entry>
-        <id>https://blog.ohayo.live/2022/08/12/python/pyinstallerPacketExe/</id>
+        <id>https://blog.ohayo.live/2022/08/12/CS/python/pyinstallerPacketExe/</id>
         <title>pyinstaller打包exe</title>
-        <link rel="alternate" href="https://blog.ohayo.live/2022/08/12/python/pyinstallerPacketExe/"/>
+        <link rel="alternate" href="https://blog.ohayo.live/2022/08/12/CS/python/pyinstallerPacketExe/"/>
         <content type="html">&lt;h1 id=&#34;pyinstaller打包exe&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pyinstaller打包exe&#34;&gt;#&lt;/a&gt; pyinstaller 打包 exe&lt;/h1&gt;
 &lt;p&gt;python 是一门解释性语言，所以当代码运行时，需要 python.exe 等解释器一句一句的对代码进行翻译（运行）。&lt;/p&gt;
 &lt;p&gt;（本篇重在阐述 pyinstaller 打包为什么会这么大，精简打包压缩流程）&lt;/p&gt;
@@ -760,8 +760,8 @@ nums1 和 nums2 中所有整数 互不相同&lt;br /&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/zhu-jiyuan/picture_go/img/QQ%E6%88%AA%E5%9B%BE20220406231432.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;可以看到又进一步压缩了一点。实际上这个过程是加壳哈。&lt;/p&gt;
 </content>
-        <category term="python" scheme="https://blog.ohayo.live/categories/python/" />
-        <category term="windows" scheme="https://blog.ohayo.live/tags/windows/" />
+        <category term="CS" scheme="https://blog.ohayo.live/categories/CS/" />
+        <category term="python" scheme="https://blog.ohayo.live/categories/CS/python/" />
         <category term="python" scheme="https://blog.ohayo.live/tags/python/" />
         <updated>2022-08-12T08:02:30.553Z</updated>
     </entry>
@@ -889,7 +889,6 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
 </content>
         <category term="note" scheme="https://blog.ohayo.live/categories/note/" />
         <category term="note" scheme="https://blog.ohayo.live/tags/note/" />
-        <category term="git" scheme="https://blog.ohayo.live/tags/git/" />
         <updated>2022-05-12T09:51:20.000Z</updated>
     </entry>
     <entry>
@@ -970,7 +969,7 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
 &lt;p&gt;大致配置，相关功能的介绍几乎都在这个作者写的 ====&amp;gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubm90aW9uLnNvL1F1YW50dW11bHQtWC0xZDMyZGRjNmU2MWM0ODkyYWQyZWM1ZWE0N2YwMDkxNw==&#34;&gt;Quantumult-X 不完全教程&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;这篇文章大致讲了配置文件的基本格式，以及各个功能。&lt;/p&gt;
 &lt;h1 id=&#34;术语简解&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#术语简解&#34;&gt;#&lt;/a&gt; 术语简解&lt;/h1&gt;
-&lt;p&gt;我这里也简单解释一下，这几个在配置文件中的模块是啥意思。详细的请看上面的教程。&lt;/p&gt;
+&lt;p&gt;简单解释一下，这几个在配置文件中的模块是啥意思。详细的请看上面的教程。&lt;/p&gt;
 &lt;p&gt;首先说一下 quantumult x 支持远程挂载文件，就你可以直接过载 github 或者服务器上托管的配置或者规则。&lt;/p&gt;
 &lt;p&gt;所有在 remote 标签下的都是远程挂载的配置文件，在 local 下都是本地的配置文件。&lt;/p&gt;
 &lt;ul&gt;
@@ -1047,8 +1046,7 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
 &lt;li&gt;更新 JavaScript 问题&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        <category term="log" scheme="https://blog.ohayo.live/categories/log/" />
-        <category term="soft" scheme="https://blog.ohayo.live/categories/log/soft/" />
+        <category term="soft" scheme="https://blog.ohayo.live/categories/soft/" />
         <category term="log" scheme="https://blog.ohayo.live/tags/log/" />
         <updated>2022-05-04T15:40:49.000Z</updated>
     </entry>
@@ -1200,8 +1198,7 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
 &lt;p&gt;速度与直连校园网无差别。十分 nice&lt;/p&gt;
 &lt;p&gt;唉，先到这吧，学校没有 ipv6，难受了，加上我的笔记本没法插网线，没法远程开机，难受～。让我们上了研究生再写这篇文章吧。&lt;/p&gt;
 </content>
-        <category term="network" scheme="https://blog.ohayo.live/categories/network/" />
-        <category term="router" scheme="https://blog.ohayo.live/tags/router/" />
+        <category term="log" scheme="https://blog.ohayo.live/categories/log/" />
         <category term="log" scheme="https://blog.ohayo.live/tags/log/" />
         <updated>2022-04-30T12:47:11.000Z</updated>
     </entry>
@@ -1246,9 +1243,9 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
         <updated>2022-04-21T14:56:30.000Z</updated>
     </entry>
     <entry>
-        <id>https://blog.ohayo.live/2022/04/19/cpp/c-five-zone/</id>
+        <id>https://blog.ohayo.live/2022/04/19/CS/cpp/c-five-zone/</id>
         <title>c++的四大区</title>
-        <link rel="alternate" href="https://blog.ohayo.live/2022/04/19/cpp/c-five-zone/"/>
+        <link rel="alternate" href="https://blog.ohayo.live/2022/04/19/CS/cpp/c-five-zone/"/>
         <content type="html">&lt;p&gt;今天开始学习使用 c++，之前一直使用 python 比较多。语言各有千秋，只有最合适。好啦，现在到了使用 c++ 的时候惹。希望我能够喜欢上这个语言。&lt;/p&gt;
 &lt;p&gt;let&#39;s go!😽&lt;/p&gt;
 &lt;h2 id=&#34;内存四大区&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#内存四大区&#34;&gt;#&lt;/a&gt; 内存四大区&lt;/h2&gt;
@@ -1284,16 +1281,16 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
 &lt;li&gt;缺点，增加了程序员的心智负担，内存往往没有得到很好的控制。&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        <category term="cpp" scheme="https://blog.ohayo.live/categories/cpp/" />
-        <category term="computer language" scheme="https://blog.ohayo.live/categories/cpp/computer-language/" />
-        <category term="cpp" scheme="https://blog.ohayo.live/tags/cpp/" />
+        <category term="CS" scheme="https://blog.ohayo.live/categories/CS/" />
+        <category term="cpp" scheme="https://blog.ohayo.live/categories/CS/cpp/" />
         <category term="note" scheme="https://blog.ohayo.live/tags/note/" />
+        <category term="cpp" scheme="https://blog.ohayo.live/tags/cpp/" />
         <updated>2022-04-19T13:02:40.000Z</updated>
     </entry>
     <entry>
-        <id>https://blog.ohayo.live/2022/04/18/learning/machine-learning-9-week/</id>
+        <id>https://blog.ohayo.live/2022/04/18/CS/machine-learning-9-week/</id>
         <title>machine learning 9周学习</title>
-        <link rel="alternate" href="https://blog.ohayo.live/2022/04/18/learning/machine-learning-9-week/"/>
+        <link rel="alternate" href="https://blog.ohayo.live/2022/04/18/CS/machine-learning-9-week/"/>
         <content type="html">&lt;div class=&#34;note warning&#34;&gt;
 &lt;p&gt;本文所有向量默认为列向量。&lt;/p&gt;
 &lt;/div&gt;
@@ -1339,9 +1336,9 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
 &lt;p&gt;我想我们这时候来说 deep learning 最好。&lt;/p&gt;
 &lt;p&gt;（待补坑，先考完试）😢&lt;/p&gt;
 </content>
-        <category term="machine learning" scheme="https://blog.ohayo.live/categories/machine-learning/" />
+        <category term="CS" scheme="https://blog.ohayo.live/categories/CS/" />
+        <category term="machine learning" scheme="https://blog.ohayo.live/categories/CS/machine-learning/" />
         <category term="note" scheme="https://blog.ohayo.live/tags/note/" />
-        <category term="machine learning" scheme="https://blog.ohayo.live/tags/machine-learning/" />
         <updated>2022-04-18T07:00:10.000Z</updated>
     </entry>
     <entry>
@@ -1366,19 +1363,20 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
         <updated>2022-04-09T15:51:59.000Z</updated>
     </entry>
     <entry>
-        <id>https://blog.ohayo.live/2022/01/08/linux/WritingService/</id>
+        <id>https://blog.ohayo.live/2022/01/08/CS/linux/WritingService/</id>
         <title>linux中的service</title>
-        <link rel="alternate" href="https://blog.ohayo.live/2022/01/08/linux/WritingService/"/>
+        <link rel="alternate" href="https://blog.ohayo.live/2022/01/08/CS/linux/WritingService/"/>
         <content type="html">&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;vim&lt;/span&gt; /lib/systemd/system/服务名.service&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight ini&#34;&gt;&lt;figcaption data-lang=&#34;ini&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#例如 frp 的服务端&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token section&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token section-name selector&#34;&gt;Unit&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key attr-name&#34;&gt;Description&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token value attr-value&#34;&gt;fraps service&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key attr-name&#34;&gt;After&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token value attr-value&#34;&gt;network.target syslog.target&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key attr-name&#34;&gt;Wants&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token value attr-value&#34;&gt;network.target&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token section&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token section-name selector&#34;&gt;Service&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key attr-name&#34;&gt;Type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token value attr-value&#34;&gt;simple&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key attr-name&#34;&gt;ExecStart&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token value attr-value&#34;&gt;/root/frp/frps -c /root/frp/frps.ini  #此处安实际情况修改&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token section&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token section-name selector&#34;&gt;Install&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key attr-name&#34;&gt;WantedBy&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token value attr-value&#34;&gt;multi-user.target&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight ini&#34;&gt;&lt;figcaption data-lang=&#34;ini&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#客户端运行服务创建：vi /lib/systemd/system/frpc.service&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#qq 机器人的服务&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token section&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token section-name selector&#34;&gt;Unit&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key attr-name&#34;&gt;Description&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token value attr-value&#34;&gt;qqbot&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token section&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token section-name selector&#34;&gt;Service&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key attr-name&#34;&gt;Type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token value attr-value&#34;&gt;simple&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key attr-name&#34;&gt;ExecStart&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token value attr-value&#34;&gt;/root/push_qq/go-cqhttp&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token section&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token section-name selector&#34;&gt;Install&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key attr-name&#34;&gt;WantedBy&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token value attr-value&#34;&gt;multi-user.target&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
-        <category term="Linux" scheme="https://blog.ohayo.live/categories/Linux/" />
+        <category term="CS" scheme="https://blog.ohayo.live/categories/CS/" />
+        <category term="Linux" scheme="https://blog.ohayo.live/categories/CS/Linux/" />
         <category term="note" scheme="https://blog.ohayo.live/tags/note/" />
         <category term="Linux" scheme="https://blog.ohayo.live/tags/Linux/" />
         <updated>2022-01-07T16:00:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://blog.ohayo.live/2022/01/05/linux/CustomServerInit/</id>
+        <id>https://blog.ohayo.live/2022/01/05/CS/linux/CustomServerInit/</id>
         <title>科学上网&amp;基本的网络服务器&amp;内网穿透</title>
-        <link rel="alternate" href="https://blog.ohayo.live/2022/01/05/linux/CustomServerInit/"/>
+        <link rel="alternate" href="https://blog.ohayo.live/2022/01/05/CS/linux/CustomServerInit/"/>
         <content type="html">&lt;h1 id=&#34;科学上网vpn的搭建&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#科学上网vpn的搭建&#34;&gt;#&lt;/a&gt; 科学上网 VPN 的搭建&lt;/h1&gt;
 &lt;p&gt;v2 一键脚本&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#首先用 firewall-cmd 开 v2 的端口&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;firewall-cmd --permanent --zone&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;public --add-port&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;v2端口/tcp&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#安装 curl&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt&lt;/span&gt; update&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;curl&lt;/span&gt; -y&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#以下脚本二选一&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;bash&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;curl&lt;/span&gt; -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;#带面板，要多开个面板端口，ip + 端口访问面板，进行 v2 设置。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;bash&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;curl&lt;/span&gt; -s -L https://git.io/v2ray.sh&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;#不带面板，省端口&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#加速器的安装&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;wget&lt;/span&gt; --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;chmod&lt;/span&gt; +x bbr.sh &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; ./bbr.sh&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;基本服务器的安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基本服务器的安装&#34;&gt;#&lt;/a&gt; 基本服务器的安装&lt;/h1&gt;
@@ -1405,17 +1403,15 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
 &lt;p&gt;用 ipad 随时随地通过服务器 ip 远程连接家里的电脑&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/zhu-jiyuan/picture_go/img/image-20220105230626923.png&#34; alt=&#34;image-20220105230626923&#34; /&gt;&lt;/p&gt;
 </content>
-        <category term="Linux" scheme="https://blog.ohayo.live/categories/Linux/" />
-        <category term="server" scheme="https://blog.ohayo.live/categories/Linux/server/" />
+        <category term="CS" scheme="https://blog.ohayo.live/categories/CS/" />
+        <category term="Linux" scheme="https://blog.ohayo.live/categories/CS/Linux/" />
         <category term="Linux" scheme="https://blog.ohayo.live/tags/Linux/" />
-        <category term="Ubuntu" scheme="https://blog.ohayo.live/tags/Ubuntu/" />
-        <category term="network" scheme="https://blog.ohayo.live/tags/network/" />
         <updated>2022-01-04T16:00:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://blog.ohayo.live/2022/01/04/linux/linux_init/</id>
+        <id>https://blog.ohayo.live/2022/01/04/CS/linux/linux_init/</id>
         <title>linux服务器初始化（个人自用）</title>
-        <link rel="alternate" href="https://blog.ohayo.live/2022/01/04/linux/linux_init/"/>
+        <link rel="alternate" href="https://blog.ohayo.live/2022/01/04/CS/linux/linux_init/"/>
         <content type="html">&lt;h1 id=&#34;重置root密码&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#重置root密码&#34;&gt;#&lt;/a&gt; 重置 root 密码&lt;/h1&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;passwd&lt;/span&gt; root&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#为了以后省去 sudo 输入密码。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; visudo&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#在文件最后加上&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;用户名 &lt;span class=&#34;token assign-left variable&#34;&gt;ALL&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;ALL&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; NOPASSWD: ALL&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;安装vim并设置主编辑器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装vim并设置主编辑器&#34;&gt;#&lt;/a&gt; 安装 vim 并设置主编辑器&lt;/h1&gt;
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;apt&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;vim&lt;/span&gt; -y&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;select-editor&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/zhu-jiyuan/picture_go/img/image-20220421130919271.png&#34; alt=&#34;image-20220421130919271&#34; /&gt;&lt;/p&gt;
@@ -1426,7 +1422,9 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
 &lt;p&gt;其实这里主要是因为 python 的一些版本问题。如果没有问题，可跳过&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; python3&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; python3-pip&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;安装ssh-xrdp-firewalld&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装ssh-xrdp-firewalld&#34;&gt;#&lt;/a&gt; 安装 ssh &amp;amp; xrdp &amp;amp; firewalld&lt;/h1&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;ssh&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; xrdp&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; systemctl status xrdp&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; adduser xrdp ssl-cert  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; systemctl restart xrdp&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; firewalld&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
-        <category term="init" scheme="https://blog.ohayo.live/categories/init/" />
+        <category term="CS" scheme="https://blog.ohayo.live/categories/CS/" />
+        <category term="Linux" scheme="https://blog.ohayo.live/categories/CS/Linux/" />
+        <category term="note" scheme="https://blog.ohayo.live/tags/note/" />
         <category term="Linux" scheme="https://blog.ohayo.live/tags/Linux/" />
         <updated>2022-01-03T16:00:00.000Z</updated>
     </entry>

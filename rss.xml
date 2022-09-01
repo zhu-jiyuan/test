@@ -123,8 +123,8 @@ nums1 和 nums2 中所有整数 互不相同&lt;br /&gt;
             <guid isPermalink="true">https://blog.ohayo.live/2022/08/29/CS/dataStruct/stringAndKMP/</guid>
             <title>字符串匹配</title>
             <link>https://blog.ohayo.live/2022/08/29/CS/dataStruct/stringAndKMP/</link>
-            <category term="cs" scheme="https://blog.ohayo.live/categories/cs/" />
-            <category term="数据结构" scheme="https://blog.ohayo.live/categories/cs/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" />
+            <category term="CS" scheme="https://blog.ohayo.live/categories/CS/" />
+            <category term="数据结构" scheme="https://blog.ohayo.live/categories/CS/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" />
             <category term="note" scheme="https://blog.ohayo.live/tags/note/" />
             <pubDate>Mon, 29 Aug 2022 22:40:35 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;子串匹配问题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#子串匹配问题&#34;&gt;#&lt;/a&gt; 子串匹配问题&lt;/h1&gt;
@@ -702,11 +702,11 @@ nums1 和 nums2 中所有整数 互不相同&lt;br /&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.ohayo.live/2022/08/12/python/pyinstallerPacketExe/</guid>
+            <guid isPermalink="true">https://blog.ohayo.live/2022/08/12/CS/python/pyinstallerPacketExe/</guid>
             <title>pyinstaller打包exe</title>
-            <link>https://blog.ohayo.live/2022/08/12/python/pyinstallerPacketExe/</link>
-            <category term="python" scheme="https://blog.ohayo.live/categories/python/" />
-            <category term="windows" scheme="https://blog.ohayo.live/tags/windows/" />
+            <link>https://blog.ohayo.live/2022/08/12/CS/python/pyinstallerPacketExe/</link>
+            <category term="CS" scheme="https://blog.ohayo.live/categories/CS/" />
+            <category term="python" scheme="https://blog.ohayo.live/categories/CS/python/" />
             <category term="python" scheme="https://blog.ohayo.live/tags/python/" />
             <pubDate>Fri, 12 Aug 2022 16:02:30 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;pyinstaller打包exe&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pyinstaller打包exe&#34;&gt;#&lt;/a&gt; pyinstaller 打包 exe&lt;/h1&gt;
@@ -774,7 +774,6 @@ nums1 和 nums2 中所有整数 互不相同&lt;br /&gt;
             <link>https://blog.ohayo.live/2022/05/12/learning/git-learning/</link>
             <category term="note" scheme="https://blog.ohayo.live/categories/note/" />
             <category term="note" scheme="https://blog.ohayo.live/tags/note/" />
-            <category term="git" scheme="https://blog.ohayo.live/tags/git/" />
             <pubDate>Thu, 12 May 2022 17:51:20 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;最近也是产出高峰期耶～&lt;/p&gt;
 &lt;p&gt;咱的电脑是一个对于&lt;strong&gt;物理学&lt;/strong&gt;学生十分够用&lt;s&gt;拉跨&lt;/s&gt;的笔电。&lt;/p&gt;
@@ -958,8 +957,7 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
             <guid isPermalink="true">https://blog.ohayo.live/2022/05/04/soft/quantumultx/quantumult-x-note/</guid>
             <title>Quantumult X一款神奇的软件</title>
             <link>https://blog.ohayo.live/2022/05/04/soft/quantumultx/quantumult-x-note/</link>
-            <category term="log" scheme="https://blog.ohayo.live/categories/log/" />
-            <category term="soft" scheme="https://blog.ohayo.live/categories/log/soft/" />
+            <category term="soft" scheme="https://blog.ohayo.live/categories/soft/" />
             <category term="log" scheme="https://blog.ohayo.live/tags/log/" />
             <pubDate>Wed, 04 May 2022 23:40:49 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;quantumult x，一款路由软件。&lt;br /&gt;
@@ -977,7 +975,7 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
 &lt;p&gt;大致配置，相关功能的介绍几乎都在这个作者写的 ====&amp;gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubm90aW9uLnNvL1F1YW50dW11bHQtWC0xZDMyZGRjNmU2MWM0ODkyYWQyZWM1ZWE0N2YwMDkxNw==&#34;&gt;Quantumult-X 不完全教程&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;这篇文章大致讲了配置文件的基本格式，以及各个功能。&lt;/p&gt;
 &lt;h1 id=&#34;术语简解&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#术语简解&#34;&gt;#&lt;/a&gt; 术语简解&lt;/h1&gt;
-&lt;p&gt;我这里也简单解释一下，这几个在配置文件中的模块是啥意思。详细的请看上面的教程。&lt;/p&gt;
+&lt;p&gt;简单解释一下，这几个在配置文件中的模块是啥意思。详细的请看上面的教程。&lt;/p&gt;
 &lt;p&gt;首先说一下 quantumult x 支持远程挂载文件，就你可以直接过载 github 或者服务器上托管的配置或者规则。&lt;/p&gt;
 &lt;p&gt;所有在 remote 标签下的都是远程挂载的配置文件，在 local 下都是本地的配置文件。&lt;/p&gt;
 &lt;ul&gt;
@@ -1099,8 +1097,7 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
             <guid isPermalink="true">https://blog.ohayo.live/2022/04/30/write/redmiAx6/</guid>
             <title>折腾红米ax6</title>
             <link>https://blog.ohayo.live/2022/04/30/write/redmiAx6/</link>
-            <category term="network" scheme="https://blog.ohayo.live/categories/network/" />
-            <category term="router" scheme="https://blog.ohayo.live/tags/router/" />
+            <category term="log" scheme="https://blog.ohayo.live/categories/log/" />
             <category term="log" scheme="https://blog.ohayo.live/tags/log/" />
             <pubDate>Sat, 30 Apr 2022 20:47:11 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;此篇记录一下前段时间折腾路由器的经历。哈哈哈哈哈，真是太爽了，路由器这东西，真上头。&lt;/p&gt;
@@ -1249,13 +1246,13 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;adb &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; appName.apk&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.ohayo.live/2022/04/19/cpp/c-five-zone/</guid>
+            <guid isPermalink="true">https://blog.ohayo.live/2022/04/19/CS/cpp/c-five-zone/</guid>
             <title>c++的四大区</title>
-            <link>https://blog.ohayo.live/2022/04/19/cpp/c-five-zone/</link>
-            <category term="cpp" scheme="https://blog.ohayo.live/categories/cpp/" />
-            <category term="computer language" scheme="https://blog.ohayo.live/categories/cpp/computer-language/" />
-            <category term="cpp" scheme="https://blog.ohayo.live/tags/cpp/" />
+            <link>https://blog.ohayo.live/2022/04/19/CS/cpp/c-five-zone/</link>
+            <category term="CS" scheme="https://blog.ohayo.live/categories/CS/" />
+            <category term="cpp" scheme="https://blog.ohayo.live/categories/CS/cpp/" />
             <category term="note" scheme="https://blog.ohayo.live/tags/note/" />
+            <category term="cpp" scheme="https://blog.ohayo.live/tags/cpp/" />
             <pubDate>Tue, 19 Apr 2022 21:02:40 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;今天开始学习使用 c++，之前一直使用 python 比较多。语言各有千秋，只有最合适。好啦，现在到了使用 c++ 的时候惹。希望我能够喜欢上这个语言。&lt;/p&gt;
 &lt;p&gt;let&#39;s go!😽&lt;/p&gt;
@@ -1294,12 +1291,12 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.ohayo.live/2022/04/18/learning/machine-learning-9-week/</guid>
+            <guid isPermalink="true">https://blog.ohayo.live/2022/04/18/CS/machine-learning-9-week/</guid>
             <title>machine learning 9周学习</title>
-            <link>https://blog.ohayo.live/2022/04/18/learning/machine-learning-9-week/</link>
-            <category term="machine learning" scheme="https://blog.ohayo.live/categories/machine-learning/" />
+            <link>https://blog.ohayo.live/2022/04/18/CS/machine-learning-9-week/</link>
+            <category term="CS" scheme="https://blog.ohayo.live/categories/CS/" />
+            <category term="machine learning" scheme="https://blog.ohayo.live/categories/CS/machine-learning/" />
             <category term="note" scheme="https://blog.ohayo.live/tags/note/" />
-            <category term="machine learning" scheme="https://blog.ohayo.live/tags/machine-learning/" />
             <pubDate>Mon, 18 Apr 2022 15:00:10 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note warning&#34;&gt;
 &lt;p&gt;本文所有向量默认为列向量。&lt;/p&gt;
@@ -1369,24 +1366,23 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.ohayo.live/2022/01/08/linux/WritingService/</guid>
+            <guid isPermalink="true">https://blog.ohayo.live/2022/01/08/CS/linux/WritingService/</guid>
             <title>linux中的service</title>
-            <link>https://blog.ohayo.live/2022/01/08/linux/WritingService/</link>
-            <category term="Linux" scheme="https://blog.ohayo.live/categories/Linux/" />
+            <link>https://blog.ohayo.live/2022/01/08/CS/linux/WritingService/</link>
+            <category term="CS" scheme="https://blog.ohayo.live/categories/CS/" />
+            <category term="Linux" scheme="https://blog.ohayo.live/categories/CS/Linux/" />
             <category term="note" scheme="https://blog.ohayo.live/tags/note/" />
             <category term="Linux" scheme="https://blog.ohayo.live/tags/Linux/" />
             <pubDate>Sat, 08 Jan 2022 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;vim&lt;/span&gt; /lib/systemd/system/服务名.service&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight ini&#34;&gt;&lt;figcaption data-lang=&#34;ini&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#例如 frp 的服务端&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token section&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token section-name selector&#34;&gt;Unit&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key attr-name&#34;&gt;Description&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token value attr-value&#34;&gt;fraps service&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key attr-name&#34;&gt;After&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token value attr-value&#34;&gt;network.target syslog.target&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key attr-name&#34;&gt;Wants&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token value attr-value&#34;&gt;network.target&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token section&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token section-name selector&#34;&gt;Service&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key attr-name&#34;&gt;Type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token value attr-value&#34;&gt;simple&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key attr-name&#34;&gt;ExecStart&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token value attr-value&#34;&gt;/root/frp/frps -c /root/frp/frps.ini  #此处安实际情况修改&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token section&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token section-name selector&#34;&gt;Install&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key attr-name&#34;&gt;WantedBy&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token value attr-value&#34;&gt;multi-user.target&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight ini&#34;&gt;&lt;figcaption data-lang=&#34;ini&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#客户端运行服务创建：vi /lib/systemd/system/frpc.service&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#qq 机器人的服务&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token section&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token section-name selector&#34;&gt;Unit&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key attr-name&#34;&gt;Description&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token value attr-value&#34;&gt;qqbot&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token section&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token section-name selector&#34;&gt;Service&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key attr-name&#34;&gt;Type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token value attr-value&#34;&gt;simple&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key attr-name&#34;&gt;ExecStart&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token value attr-value&#34;&gt;/root/push_qq/go-cqhttp&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token section&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token section-name selector&#34;&gt;Install&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key attr-name&#34;&gt;WantedBy&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token value attr-value&#34;&gt;multi-user.target&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.ohayo.live/2022/01/05/linux/CustomServerInit/</guid>
+            <guid isPermalink="true">https://blog.ohayo.live/2022/01/05/CS/linux/CustomServerInit/</guid>
             <title>科学上网&amp;基本的网络服务器&amp;内网穿透</title>
-            <link>https://blog.ohayo.live/2022/01/05/linux/CustomServerInit/</link>
-            <category term="Linux" scheme="https://blog.ohayo.live/categories/Linux/" />
-            <category term="server" scheme="https://blog.ohayo.live/categories/Linux/server/" />
+            <link>https://blog.ohayo.live/2022/01/05/CS/linux/CustomServerInit/</link>
+            <category term="CS" scheme="https://blog.ohayo.live/categories/CS/" />
+            <category term="Linux" scheme="https://blog.ohayo.live/categories/CS/Linux/" />
             <category term="Linux" scheme="https://blog.ohayo.live/tags/Linux/" />
-            <category term="Ubuntu" scheme="https://blog.ohayo.live/tags/Ubuntu/" />
-            <category term="network" scheme="https://blog.ohayo.live/tags/network/" />
             <pubDate>Wed, 05 Jan 2022 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;科学上网vpn的搭建&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#科学上网vpn的搭建&#34;&gt;#&lt;/a&gt; 科学上网 VPN 的搭建&lt;/h1&gt;
 &lt;p&gt;v2 一键脚本&lt;/p&gt;
@@ -1416,10 +1412,12 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.ohayo.live/2022/01/04/linux/linux_init/</guid>
+            <guid isPermalink="true">https://blog.ohayo.live/2022/01/04/CS/linux/linux_init/</guid>
             <title>linux服务器初始化（个人自用）</title>
-            <link>https://blog.ohayo.live/2022/01/04/linux/linux_init/</link>
-            <category term="init" scheme="https://blog.ohayo.live/categories/init/" />
+            <link>https://blog.ohayo.live/2022/01/04/CS/linux/linux_init/</link>
+            <category term="CS" scheme="https://blog.ohayo.live/categories/CS/" />
+            <category term="Linux" scheme="https://blog.ohayo.live/categories/CS/Linux/" />
+            <category term="note" scheme="https://blog.ohayo.live/tags/note/" />
             <category term="Linux" scheme="https://blog.ohayo.live/tags/Linux/" />
             <pubDate>Tue, 04 Jan 2022 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;重置root密码&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#重置root密码&#34;&gt;#&lt;/a&gt; 重置 root 密码&lt;/h1&gt;
