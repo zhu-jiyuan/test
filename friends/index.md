@@ -3,7 +3,7 @@
 - 站名：gloria
 - 站长：gloria
 - 地址：https://blog.ohayo.live
-- 简介：编程 & 生活 & 想法
+- 简介：code & life & notion
 
 
 
