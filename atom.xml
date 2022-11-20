@@ -8,7 +8,14 @@
     <author>
       <name>Gloria</name>
     </author>
-    <updated>2022-11-20T23:30:20.000Z</updated>
+    <updated>2022-11-20T23:33:37.000Z</updated>
+    <entry>
+        <id>https://blog.ohayo.live/test2/</id>
+        <title>test2</title>
+        <link rel="alternate" href="https://blog.ohayo.live/test2/"/>
+        <content type="html"></content>
+        <updated>2022-11-20T23:33:37.000Z</updated>
+    </entry>
     <entry>
         <id>https://blog.ohayo.live/test/</id>
         <title>test</title>
@@ -81,7 +88,7 @@
         <category term="CS" scheme="https://blog.ohayo.live/categories/CS/" />
         <category term="python" scheme="https://blog.ohayo.live/categories/CS/python/" />
         <category term="python" scheme="https://blog.ohayo.live/tags/python/" />
-        <updated>2022-11-20T15:32:11.303Z</updated>
+        <updated>2022-11-20T15:34:13.088Z</updated>
     </entry>
     <entry>
         <id>https://blog.ohayo.live/CS/dataStruct/tree/huffmanTreeCompress/</id>
@@ -1772,26 +1779,5 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
         <category term="machine learning" scheme="https://blog.ohayo.live/categories/CS/machine-learning/" />
         <category term="note" scheme="https://blog.ohayo.live/tags/note/" />
         <updated>2022-04-18T15:00:10.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://blog.ohayo.live/write/Hi-markdown/</id>
-        <title>Hi,markdown.</title>
-        <link rel="alternate" href="https://blog.ohayo.live/write/Hi-markdown/"/>
-        <content type="html">&lt;h2 id=&#34;typorapicgo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#typorapicgo&#34;&gt;#&lt;/a&gt; Typora&amp;amp;Picgo&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90eXBvcmEuaW8v&#34;&gt;Typroa&lt;/span&gt; 是一个 markdown 编辑器。&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL01vbHVuZXJmaW5uL1BpY0dv&#34;&gt;picgo&lt;/span&gt; 是一个图床管理工具。&lt;/p&gt;
-&lt;p&gt;&lt;ins class=&#34;dot&#34;&gt;把图片粘贴到 Typroa 时，会自动上传到图床上，干净又卫生。&lt;/ins&gt;&lt;/p&gt;
-&lt;h3 id=&#34;配置picgo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置picgo&#34;&gt;#&lt;/a&gt; 配置 picgo&lt;/h3&gt;
-&lt;p&gt;这里我使用的 github 的图床哈。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/zhu-jiyuan/picture_go/img/image-20220410003924040.png&#34; alt=&#34;image-20220410003924040&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;自己建一个新仓库专门放图片等等，去 GitHub 里获取 token（在 github 设置的开发者设置里）。填上即可&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/zhu-jiyuan/picture_go/img/image-20220410004136550.png&#34; alt=&#34;image-20220410004136550&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;配置typora&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置typora&#34;&gt;#&lt;/a&gt; 配置 typora&lt;/h3&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/zhu-jiyuan/picture_go/img/image-20220410004306971.png&#34; alt=&#34;image-20220410004306971&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;到这里就可以享受 markdown 图片插入啦。&lt;/p&gt;
-</content>
-        <category term="note" scheme="https://blog.ohayo.live/categories/note/" />
-        <category term="markdown" scheme="https://blog.ohayo.live/tags/markdown/" />
-        <updated>2022-04-09T23:51:59.000Z</updated>
     </entry>
 </feed>

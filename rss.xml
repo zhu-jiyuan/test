@@ -10,8 +10,15 @@
         </author>
         <description>满怀勇敢</description>
         <language>zh-CN</language>
-        <pubDate>Sun, 20 Nov 2022 23:30:20 +0000</pubDate>
-        <lastBuildDate>Sun, 20 Nov 2022 23:30:20 +0000</lastBuildDate>
+        <pubDate>Sun, 20 Nov 2022 23:33:37 +0000</pubDate>
+        <lastBuildDate>Sun, 20 Nov 2022 23:33:37 +0000</lastBuildDate>
+        <item>
+            <guid isPermalink="true">https://blog.ohayo.live/test2/</guid>
+            <title>test2</title>
+            <link>https://blog.ohayo.live/test2/</link>
+            <pubDate>Sun, 20 Nov 2022 23:33:37 +0000</pubDate>
+            <description><![CDATA[  ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://blog.ohayo.live/test/</guid>
             <title>test</title>
@@ -26,7 +33,7 @@
             <category term="CS" scheme="https://blog.ohayo.live/categories/CS/" />
             <category term="python" scheme="https://blog.ohayo.live/categories/CS/python/" />
             <category term="python" scheme="https://blog.ohayo.live/tags/python/" />
-            <pubDate>Sun, 20 Nov 2022 15:32:11 +0000</pubDate>
+            <pubDate>Sun, 20 Nov 2022 15:34:13 +0000</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;pyinstaller打包exe&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pyinstaller打包exe&#34;&gt;#&lt;/a&gt; pyinstaller 打包 exe&lt;/h1&gt;
 &lt;p&gt;python 是一门解释性语言，所以当代码运行时，需要 python.exe 等解释器一句一句的对代码进行翻译（运行）。&lt;/p&gt;
 &lt;p&gt;（本篇重在阐述 pyinstaller 打包为什么会这么大，精简打包压缩流程）&lt;/p&gt;
@@ -1774,27 +1781,6 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
 &lt;p&gt;我突然想说一说深度学习，看懂上面的线性回归后，其实你可以搭建一个属于自己的神经网络了。&lt;/p&gt;
 &lt;p&gt;我想我们这时候来说 deep learning 最好。&lt;/p&gt;
 &lt;p&gt;（待补坑，先考完试）😢&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://blog.ohayo.live/write/Hi-markdown/</guid>
-            <title>Hi,markdown.</title>
-            <link>https://blog.ohayo.live/write/Hi-markdown/</link>
-            <category term="note" scheme="https://blog.ohayo.live/categories/note/" />
-            <category term="markdown" scheme="https://blog.ohayo.live/tags/markdown/" />
-            <pubDate>Sat, 09 Apr 2022 23:51:59 +0000</pubDate>
-            <description><![CDATA[ &lt;h2 id=&#34;typorapicgo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#typorapicgo&#34;&gt;#&lt;/a&gt; Typora&amp;amp;Picgo&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90eXBvcmEuaW8v&#34;&gt;Typroa&lt;/span&gt; 是一个 markdown 编辑器。&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL01vbHVuZXJmaW5uL1BpY0dv&#34;&gt;picgo&lt;/span&gt; 是一个图床管理工具。&lt;/p&gt;
-&lt;p&gt;&lt;ins class=&#34;dot&#34;&gt;把图片粘贴到 Typroa 时，会自动上传到图床上，干净又卫生。&lt;/ins&gt;&lt;/p&gt;
-&lt;h3 id=&#34;配置picgo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置picgo&#34;&gt;#&lt;/a&gt; 配置 picgo&lt;/h3&gt;
-&lt;p&gt;这里我使用的 github 的图床哈。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/zhu-jiyuan/picture_go/img/image-20220410003924040.png&#34; alt=&#34;image-20220410003924040&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;自己建一个新仓库专门放图片等等，去 GitHub 里获取 token（在 github 设置的开发者设置里）。填上即可&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/zhu-jiyuan/picture_go/img/image-20220410004136550.png&#34; alt=&#34;image-20220410004136550&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;配置typora&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置typora&#34;&gt;#&lt;/a&gt; 配置 typora&lt;/h3&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/zhu-jiyuan/picture_go/img/image-20220410004306971.png&#34; alt=&#34;image-20220410004306971&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;到这里就可以享受 markdown 图片插入啦。&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
