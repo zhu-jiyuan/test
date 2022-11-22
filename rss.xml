@@ -10,12 +10,51 @@
         </author>
         <description>满怀勇敢</description>
         <language>zh-CN</language>
-        <pubDate>Mon, 21 Nov 2022 22:10:41 +0000</pubDate>
-        <lastBuildDate>Mon, 21 Nov 2022 22:10:41 +0000</lastBuildDate>
+        <pubDate>Tue, 22 Nov 2022 16:46:41 +0000</pubDate>
+        <lastBuildDate>Tue, 22 Nov 2022 16:46:41 +0000</lastBuildDate>
         <item>
-            <guid isPermalink="true">https://blog.ohayo.live/blogBuild/</guid>
+            <guid isPermalink="true">https://blog.ohayo.live/log/macbook-init/</guid>
+            <title>MacBook初始化</title>
+            <link>https://blog.ohayo.live/log/macbook-init/</link>
+            <category term="log" scheme="https://blog.ohayo.live/categories/log/" />
+            <category term="log" scheme="https://blog.ohayo.live/tags/log/" />
+            <pubDate>Tue, 22 Nov 2022 16:46:41 +0000</pubDate>
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;前几天入手了心心念念的 MacBook，体验十分好，有着 Linux 的感觉，同时自己目前用的软件都支持了 M2。&lt;br /&gt;
+BUT 在适应 Mac 途中，有很多坑。。。🌚&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;macbook初始化&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#macbook初始化&#34;&gt;#&lt;/a&gt; Macbook 初始化&lt;/h1&gt;
+&lt;h2 id=&#34;安装一些必须的东西&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装一些必须的东西&#34;&gt;#&lt;/a&gt; 安装一些必须的东西&lt;/h2&gt;
+&lt;p&gt;首先是安装 git，git 在安装完 Xcode 后会自动安装上。&lt;/p&gt;
+&lt;p&gt;安装 oh my zsh，以及补全建议的插件。&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;oh my zsh&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9vaG15ei5zaA==&#34; data-background-image=&#34;//cdn.jsdelivr.net/gh/zhu-jiyuan/zhu-jiyuan.github.io@latest/images/404.png&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9vaG15ei5zaA==&#34;&gt;oh my zsh&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;官网&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;item&#34; title=&#34;zsh-autosuggestions&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3pzaC11c2Vycy96c2gtYXV0b3N1Z2dlc3Rpb25z&#34; data-background-image=&#34;//cdn.jsdelivr.net/gh/zhu-jiyuan/zhu-jiyuan.github.io@latest/images/404.png&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3pzaC11c2Vycy96c2gtYXV0b3N1Z2dlc3Rpb25z&#34;&gt;zsh-autosuggestions&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;官网&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;安装 homebrew，brew 可以帮助我们快速安装一些东西。类似 apt-get。&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;homebrew&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9icmV3LnNo&#34; data-background-image=&#34;//cdn.jsdelivr.net/gh/zhu-jiyuan/zhu-jiyuan.github.io@latest/images/404.png&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9icmV3LnNo&#34;&gt;homebrew&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;官网&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;java、python 这些可以通过 brew 安装。&lt;/p&gt;
+&lt;h2 id=&#34;软件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#软件&#34;&gt;#&lt;/a&gt; 软件&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/zhu-jiyuan/picture_go/img/image-20221122205251382.png&#34; alt=&#34;image-20221122205251382&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;以上均支持 Apple M2。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://fastly.jsdelivr.net/gh/zhu-jiyuan/picture_go/img/image-20221122205440534.png&#34; alt=&#34;image-20221122205440534&#34; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;change-log&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#change-log&#34;&gt;#&lt;/a&gt; change log&lt;/h1&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://blog.ohayo.live/log/blogBuild/</guid>
             <title>关于本站</title>
-            <link>https://blog.ohayo.live/blogBuild/</link>
+            <link>https://blog.ohayo.live/log/blogBuild/</link>
             <category term="log" scheme="https://blog.ohayo.live/categories/log/" />
             <category term="log" scheme="https://blog.ohayo.live/tags/log/" />
             <pubDate>Mon, 21 Nov 2022 22:10:41 +0000</pubDate>
@@ -44,10 +83,14 @@
           &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;另外这个博主 b 站有配套的视频。&lt;/p&gt;
 &lt;h1 id=&#34;吐槽搭建过程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#吐槽搭建过程&#34;&gt;#&lt;/a&gt; 吐槽搭建过程&lt;/h1&gt;
+&lt;h2 id=&#34;arm64的不支持&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#arm64的不支持&#34;&gt;#&lt;/a&gt; arm64 的不支持&lt;/h2&gt;
 &lt;p&gt;因为换了 m2 的 macbook air。arm64 导致很多东西不能用了，比如这个博客所需的几个包。如果只是使用 GitHub action，也不用在意在本地是否可以运行博客，但是这个主题有很多魔法功能，在本地渲染测试后，再上传，再好不过了。&lt;/p&gt;
 &lt;p&gt;如果有小伙伴和我一样，半天没法搭建成功，不妨在博客根目录下试一下，下面这行代码。&lt;br /&gt;
  &lt;code&gt;arch -x86_64 npm install&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;或者在 &lt;code&gt;npm install xxx&lt;/code&gt;   前➕  &lt;code&gt;arch -x86_64&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;小贴士&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#小贴士&#34;&gt;#&lt;/a&gt; 小贴士&lt;/h2&gt;
+&lt;p&gt;博客根目录下的 &lt;code&gt;package.json&lt;/code&gt;  在初始化目录之后，可以把需要安装的东西，全部都写在 package 里面&lt;/p&gt;
+&lt;figure class=&#34;highlight json&#34;&gt;&lt;figcaption data-lang=&#34;JSON&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;&#34;name&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;hexo-site&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;&#34;version&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;0.0.0&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;&#34;private&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;&#34;scripts&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;build&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;hexo generate&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;clean&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;hexo clean&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;deploy&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;hexo deploy&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;server&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;hexo server&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;&#34;hexo&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;version&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;6.3.0&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;&#34;dependencies&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;hexo&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;^6.3.0&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;hexo-algoliasearch&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;^1.0.0&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;hexo-autoprefixer&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;^2.0.0&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;hexo-deployer-git&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;^3.0.0&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;hexo-feed&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;^1.1.0&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;hexo-generator-archive&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;^1.0.0&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;hexo-generator-category&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;^1.0.0&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;hexo-generator-index&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;^2.0.0&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;hexo-generator-tag&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;^1.0.0&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;hexo-renderer-ejs&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;^1.0.0&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;hexo-renderer-multi-markdown-it&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;^0.1.5&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;hexo-renderer-stylus&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;^2.0.0&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;hexo-server&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;^2.0.0&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;&#34;hexo-symbols-count-time&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;^0.7.1&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;这样在 action 时，只需 &lt;code&gt;npm install&lt;/code&gt;  就能安装依赖了。这个操作不需要本地成功搭建博客。&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;之前甚至想用 docker 备份，十分难绷～&lt;/p&gt;
 &lt;p&gt;其实还有很多坑，好在之前都已经解决了，这次就没出现。🥰&lt;/p&gt;
@@ -1520,9 +1563,9 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.ohayo.live/write/appleShortCuts/</guid>
+            <guid isPermalink="true">https://blog.ohayo.live/log/appleShortCuts/</guid>
             <title>苹果快捷指令</title>
-            <link>https://blog.ohayo.live/write/appleShortCuts/</link>
+            <link>https://blog.ohayo.live/log/appleShortCuts/</link>
             <category term="apple" scheme="https://blog.ohayo.live/categories/apple/" />
             <category term="shortcuts" scheme="https://blog.ohayo.live/tags/shortcuts/" />
             <pubDate>Sun, 01 May 2022 11:26:20 +0000</pubDate>
@@ -1560,9 +1603,9 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.ohayo.live/write/redmiAx6/</guid>
+            <guid isPermalink="true">https://blog.ohayo.live/log/redmiAx6/</guid>
             <title>折腾红米ax6</title>
-            <link>https://blog.ohayo.live/write/redmiAx6/</link>
+            <link>https://blog.ohayo.live/log/redmiAx6/</link>
             <category term="log" scheme="https://blog.ohayo.live/categories/log/" />
             <category term="log" scheme="https://blog.ohayo.live/tags/log/" />
             <pubDate>Sat, 30 Apr 2022 20:47:11 +0000</pubDate>
@@ -1672,9 +1715,9 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.ohayo.live/write/win11-android/</guid>
+            <guid isPermalink="true">https://blog.ohayo.live/log/win11-android/</guid>
             <title>win11玩安卓</title>
-            <link>https://blog.ohayo.live/write/win11-android/</link>
+            <link>https://blog.ohayo.live/log/win11-android/</link>
             <category term="os" scheme="https://blog.ohayo.live/categories/os/" />
             <category term="windows" scheme="https://blog.ohayo.live/categories/os/windows/" />
             <category term="android" scheme="https://blog.ohayo.live/tags/android/" />
@@ -1808,27 +1851,6 @@ usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...
 &lt;p&gt;我突然想说一说深度学习，看懂上面的线性回归后，其实你可以搭建一个属于自己的神经网络了。&lt;/p&gt;
 &lt;p&gt;我想我们这时候来说 deep learning 最好。&lt;/p&gt;
 &lt;p&gt;（待补坑，先考完试）😢&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://blog.ohayo.live/write/Hi-markdown/</guid>
-            <title>Hi,markdown.</title>
-            <link>https://blog.ohayo.live/write/Hi-markdown/</link>
-            <category term="note" scheme="https://blog.ohayo.live/categories/note/" />
-            <category term="markdown" scheme="https://blog.ohayo.live/tags/markdown/" />
-            <pubDate>Sat, 09 Apr 2022 23:51:59 +0000</pubDate>
-            <description><![CDATA[ &lt;h2 id=&#34;typorapicgo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#typorapicgo&#34;&gt;#&lt;/a&gt; Typora&amp;amp;Picgo&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90eXBvcmEuaW8v&#34;&gt;Typroa&lt;/span&gt; 是一个 markdown 编辑器。&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL01vbHVuZXJmaW5uL1BpY0dv&#34;&gt;picgo&lt;/span&gt; 是一个图床管理工具。&lt;/p&gt;
-&lt;p&gt;&lt;ins class=&#34;dot&#34;&gt;把图片粘贴到 Typroa 时，会自动上传到图床上，干净又卫生。&lt;/ins&gt;&lt;/p&gt;
-&lt;h3 id=&#34;配置picgo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置picgo&#34;&gt;#&lt;/a&gt; 配置 picgo&lt;/h3&gt;
-&lt;p&gt;这里我使用的 github 的图床哈。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/zhu-jiyuan/picture_go/img/image-20220410003924040.png&#34; alt=&#34;image-20220410003924040&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;自己建一个新仓库专门放图片等等，去 GitHub 里获取 token（在 github 设置的开发者设置里）。填上即可&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/zhu-jiyuan/picture_go/img/image-20220410004136550.png&#34; alt=&#34;image-20220410004136550&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;配置typora&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置typora&#34;&gt;#&lt;/a&gt; 配置 typora&lt;/h3&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/zhu-jiyuan/picture_go/img/image-20220410004306971.png&#34; alt=&#34;image-20220410004306971&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;到这里就可以享受 markdown 图片插入啦。&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
